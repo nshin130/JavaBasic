@@ -32,25 +32,20 @@ public class SungJukV1 {
 		
 		avg = (kor + eng + math) / 3;
 		avg = tot / 3;
-		
 		grd = '가';
 		
-		//결과 출력
-		System.out.print("이름 : ");
-		System.out.println(name);
-		System.out.print("국어 : ");
-		System.out.println(kor);
-		System.out.print("영어 : ");
-		System.out.println(eng);
-		System.out.print("수학 : ");
-		System.out.println(math);
-		System.out.print("총점 : ");
-		System.out.println(tot);
-		System.out.print("평균 : ");
-		System.out.println(avg);
-		System.out.print("학점 : ");
-		System.out.println(grd);
+		//출력
+		//이름: ??, 국어: ??, 영어: ??, 수학: ??
+		//총점: ??, 평균: ??, 학점: ??
 		
+		
+		 String fmt = "이름: %s, 국어: %d, 영어: %d, 수학: %d\n";
+		 System.out.printf(fmt, name,kor,eng,math);
+		 
+		 fmt = "총점: %d, 평균: %.1f, 학점: %c";	//%.1f: one decimal point
+		 System.out.printf(fmt, tot,avg,grd);
+		 
+		 
 
 	}
 }
