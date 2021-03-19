@@ -60,8 +60,6 @@ public class Condition {
 			
 		String fmt = "연봉은 %d이고, 결혼여부는 %d일떄 \n" + " 세금은 %.1f입니다";
 		System.out.printf(fmt, salary, isMarried, tax);
-		
-	
 			
 		}
 	}

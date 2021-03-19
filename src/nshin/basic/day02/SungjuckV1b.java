@@ -56,7 +56,6 @@ public class SungjuckV1b {
 		
 		System.out.println(tot);
 		System.out.println(avg);
-
 		
 	}
 }
