@@ -69,7 +69,8 @@ public class Ex02 {
 		System.out.print("Check out this line");
 		
 		//라
-		System.out.println(" //hello there " + '9' + 7); //9랑 7 차이.
+		System.out.println(" //hello there " + '9' + 7); //9랑 7차이 문자와 숫자.
+		
 		
 		//마
 		System.out.print('H' + 'I' + "is" + 1 + "more example "
@@ -99,24 +100,30 @@ public class Ex02 {
 		
 		//타
 		//System.out.print();
-		//System.out.print( );
+		//출력할 대상이 지정도지 않았으므로 오류
+		//괄호안에 뭐가 있어야함
 		
 		//파
 		//System.out.println;
 		
 		//하
 		//System.out.print("How about this one" ++ '?' + 'huh?');
+		//문자열에 사용할 수 없는 증감연산자를 사용함 (++)
+		//System.out.print("How about this one" + '?' + 'huh?');
 		
-		//9.
-		//가
-		//System.out.print(true && false && true || true);
+		//증감연산자
+		//피연산자의 값을 하나 증가시키거나 감소시킴
+		//피연산자의 어느쪽에 위치하는가에 따라 연산의 순서가 달라짐
+		//i = 1 => i = i + 1 => i += 1 => ++i
+		//		=> i = i + 3 => i += 3
 		
+		int a = 7, b = 7;
 		
-		
-		
-		
-		
-		
+		int result3 = ++a + 10; // a값을 증가시킨 후 연산참 (전치)
+		int result4 = b++ + 10; // a값을 연산에 적용한 후 값을 증가시킴 (후치)
+		System.out.println("++a + 10 = " + result3);
+		System.out.println("b++ + 10 = " + result4);	
+			
 		
 	}
 }

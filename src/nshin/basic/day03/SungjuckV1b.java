@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 처리결과 출력시 printf 메서드 사용
  *
  */
-public class SungjuckV1c {
+public class SungjuckV1b {
 	public static void main(String[] args) {
 		//변수선언
 		String name;
@@ -20,9 +20,9 @@ public class SungjuckV1c {
 		int eng;
 		int math;
 		int tot;
-		double avg;  
+		//double avg;  
 		char grd;	 
-		
+	
 		//처리
 		Scanner sc = new Scanner(System.in);		//ctrl+space
 		//키보드를 이용해서 성적데이터를 입력받기 위해
@@ -40,28 +40,23 @@ public class SungjuckV1c {
 		math = sc.nextInt();
 		
 		
-		
 		//총점, 평균 처리
 		tot = kor + eng + math;
-		avg = (kor + eng + math)/3;
-		grd = (avg >= 90) ? '수' :
-			  (avg >= 80) ? '우' :
-			  (avg >= 70) ? '미' :
-			  (avg >= 60) ? '양' : '가';
-		
-				
+		//avg = (kor + eng + math)/3;
+		double avg = (double)( kor + eng + math )/3;
+		//String fmt = "평균은 %.1f입니다.";
+		//System.out.printf(fmt,avg);
 		
 		
 		//출력
-		System.out.println(name);
-		System.out.println(kor);
-		System.out.println(eng);
-		System.out.println(math);
+		//System.out.println(name);
+		//System.out.println(kor);
+		//System.out.println(eng);
+		//System.out.println(math);
 		
-		System.out.println(tot);
-		System.out.println(avg);
-		System.out.println(grd);
-	
+		System.out.println("세 과목의 총점은 " + tot + "입니다");
+		String fmt = "평균은 %.1f입니다. ";
+		System.out.printf(fmt, avg);
 
 		
 	}
