@@ -87,7 +87,7 @@ public class Loop {
 		 int gauss;
 		 int n;
 		 Scanner sc = new Scanner(System.in);
-		 n= sc.nextInt(); //스캐너 쓰는 이유는 한가지 값을 입력하면 그것에 대한 값을 한번에 구하기 위해 여러번 안돌리고
+		 gauss = sc.nextInt(); //스캐너 쓰는 이유는 한가지 값을 입력하면 그것에 대한 값을 한번에 구하기 위해 여러번 안돌리고
 		 System.out.println("총합은" + gauss + "입니다.");
 		 
 		 
