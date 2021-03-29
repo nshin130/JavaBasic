@@ -1,16 +1,16 @@
 package nshin.basic.SungJuk;
 
-public class SungJukV5 {
+public class SungJukVO {
 
-    private String name;
-    private int kor;
-    private int eng;
-    private int math;
-    private int tot;
-    private double avg;
-    private char grd;
+    protected String name;
+    protected int kor;
+    protected int eng;
+    protected int math;
+    protected int tot;
+    protected double avg;
+    protected char grd;
 
-    public SungJukV5(String name, int kor, int eng, int math) {
+    public SungJukVO(String name, int kor, int eng, int math) {
         this.name = name;
         this.kor = kor;
         this.eng = eng;
