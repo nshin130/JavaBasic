@@ -72,5 +72,13 @@ public class SungJukVO {
     public void setGrd(char grd) {
         this.grd = grd;
     }
+
+    @Override
+    public String toString() {
+        String fmt = "{name: '%s', kor: %d, eng: %d, math: %d," +
+                "tot: %s, avg: %.1f, grd: '%s'}";
+        String result = String.format(fmt,name,kor,eng,math,tot,avg,grd);
+        return result;
+    }
 }
 
