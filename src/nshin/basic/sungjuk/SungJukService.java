@@ -1,4 +1,4 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 // 성적 서비스 v1
 // 입력 처리 출력 기능 구현

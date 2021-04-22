@@ -1,7 +1,6 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class SungJukServiceV4Impl implements SungJukServiceV4 {

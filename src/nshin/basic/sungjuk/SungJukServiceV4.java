@@ -1,4 +1,4 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 public interface SungJukServiceV4 extends SungJukServiceV2 {
 

@@ -1,4 +1,4 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 // 성적 서비스 v2
 // 입력 처리 출력 수정 삭제 기능 구현

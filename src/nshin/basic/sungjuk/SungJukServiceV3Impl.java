@@ -1,4 +1,4 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

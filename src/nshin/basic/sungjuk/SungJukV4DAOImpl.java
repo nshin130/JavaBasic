@@ -1,4 +1,4 @@
-package nshin.basic.SungJuk;
+package nshin.basic.sungjuk;
 
 
 import nshin.basic.jdbc.JDBCUtil;
